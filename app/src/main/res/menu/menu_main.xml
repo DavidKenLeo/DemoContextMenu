@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.auser.democontextmenu.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+
+        android:id="@+id/item1"
+        android:title="Item1" />
+    <item
+
+        android:id="@+id/item2"
+        android:title="Item2" />
+    <item
+
+        android:id="@+id/item3"
+        android:title="Item3" />
+    <item
+
+        android:id="@+id/item4"
+        android:title="子選單">
+
+        <menu>
+            <item android:title="SubmItem1" android:id="@+id/submitem1"/>
+            <item android:title="SubmItem2" android:id="@+id/submitem2"/>
+            <item android:title="SubmItem3" android:id="@+id/submitem3"/>
+            <item android:title="SubmItem4" android:id="@+id/submitem4"/>
+            <item android:title="SubmItem5" android:id="@+id/submitem5"/>
+        </menu>
+
+
+
+
+    </item>
+
+
+
+</menu>
